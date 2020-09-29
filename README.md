@@ -1,12 +1,12 @@
 # Presentation
 
-SpoYou is a python script that transfers all public playlists
+SpoYou is a python script that transfers any public playlist
 from Spotify to Youtube.
 
 # Requirements
 
 - Python 3
-- pip (for python3)
+- Pip (for python3)
 
 ```sh
 pip install spotipy --upgrade
