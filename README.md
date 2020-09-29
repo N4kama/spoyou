@@ -13,6 +13,13 @@ pip install spotipy --upgrade
 pip install youtube-python
 ```
 
+You will **need to** edit the `config.json` file :
+- Spotify : Go to https://developer.spotify.com/dashboard/applications 
+and create an app. Copy paste the client id and secret generated.
+- Youtube : Go to https://console.developers.google.com/
+and go to `credentials`. Create one API key and one OAuth2 ID (choose Desktop app).
+Copy both the API key and the ClientId/Secret from OAuth.
+
 # Installation & Usage
 
 ```sh
