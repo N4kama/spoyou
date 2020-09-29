@@ -1,7 +1,7 @@
 # Presentation
 
-SpoYou is a python script that transfers any public playlist
-from Spotify to Youtube.
+SpoYou is a python script listing every song on a spotify (public) playlist
+onto youtube. The result is a simple URL list of every song.
 
 # Requirements
 
@@ -11,15 +11,12 @@ from Spotify to Youtube.
 ```sh
 pip install spotipy --upgrade
 pip install youtube-python
-pip install beautifulsoup4
 ```
 
-# Installation
+# Installation & Usage
 
 ```sh
-git clone
+git clone https://github.com/N4kama/spoyou
+cd spoyou
+./spoyou.py
 ```
-
-# Usage
-
-`./spoyou.py`
