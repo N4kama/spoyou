@@ -26,4 +26,6 @@ Copy both the API key and the ClientId/Secret from OAuth.
 git clone https://github.com/N4kama/spoyou
 cd spoyou
 ./spoyou.py
+
+./spoyou.py [-h | --help] [-p playlist_url | --playlistUrl playlist_url] [-o file | --output file]
 ```
