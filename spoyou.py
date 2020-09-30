@@ -104,6 +104,6 @@ if (__name__ == "__main__"):
 
     if outputfile:
         print("Writting URLs to file : {}".format(outputfile))
-        with open(outputfile) as url_file:
+        with open(outputfile, "w+") as url_file:
             for s in songs:
                 url_file.write(s)
